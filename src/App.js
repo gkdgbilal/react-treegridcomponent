@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import { TreeGridComponent, ColumnsDirective, ColumnDirective, Inject, Page, Sort, Filter } from '@syncfusion/ej2-react-treegrid';
+import { summaryData } from './datasource';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TreeGridComponent dataSource={summaryData}
+      childMapping="subtask"
+      treeColumnIndex={1}
+      allowPaging={true}
+      allowSorting={true}
+      allowFiltering={true}
+    >
+      <Inject services={[Page, Sort, Filter]} />
+      <ColumnsDirective>
+        <ColumnDirective field="ID" headerText="ID" width="90" textAlign="Right">
+        </ColumnDirective>
+        <ColumnDirective field="Name" headerText="Name">
+        </ColumnDirective>
+        <ColumnDirective field="category" headerText="Category">
+        </ColumnDirective>
+        <ColumnDirective field="units" headerText="Units">
+        </ColumnDirective>
+        <ColumnDirective field="unitPrice" headerText="Unit Price">
+        </ColumnDirective>
+        <ColumnDirective field="price" headerText="Price" format="C2">
+        </ColumnDirective>
+      </ColumnsDirective>
+    </TreeGridComponent>
   );
 }
 
