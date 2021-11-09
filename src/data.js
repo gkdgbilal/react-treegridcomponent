@@ -1,138 +1,138 @@
-export const wordData = [
+export const workData = [
     {
-        "WORK_ID": "1",
-        "PARENT_WORK_ID": "Null",
-        "WORK_DESCRIPTION": "Faz 1"
+        WORK_ID: 1,
+        PARENT_WORK_ID: null,
+        WORK_DESCRIPTION: "Faz 1"
     },
     {
-        "WORK_ID": "2",
-        "PARENT_WORK_ID": "Null",
-        "WORK_DESCRIPTION": "Faz 2"
+        WORK_ID: 2,
+        PARENT_WORK_ID: null,
+        WORK_DESCRIPTION: "Faz 2"
     },
     {
-        "WORK_ID": "3",
-        "PARENT_WORK_ID": "1",
-        "WORK_DESCRIPTION": "Analiz"
+        WORK_ID: 3,
+        PARENT_WORK_ID: 1,
+        WORK_DESCRIPTION: "Analiz"
     },
     {
-        "WORK_ID": "4",
-        "PARENT_WORK_ID": "1",
-        "WORK_DESCRIPTION": "Sistem Kurulumları"
+        WORK_ID: 4,
+        PARENT_WORK_ID: 1,
+        WORK_DESCRIPTION: "Sistem Kurulumları"
     },
     {
-        "WORK_ID": "5",
-        "PARENT_WORK_ID": "1",
-        "WORK_DESCRIPTION": "Uyarlamalar"
+        WORK_ID: 5,
+        PARENT_WORK_ID: 1,
+        WORK_DESCRIPTION: "Uyarlamalar"
     },
     {
-        "WORK_ID": "6",
-        "PARENT_WORK_ID": "1",
-        "WORK_DESCRIPTION": "Geliştirmeler"
+        WORK_ID: 6,
+        PARENT_WORK_ID: 1,
+        WORK_DESCRIPTION: "Geliştirmeler"
     },
     {
-        "WORK_ID": "7",
-        "PARENT_WORK_ID": "3",
-        "WORK_DESCRIPTION": "Müşteriyle Toplantı 1"
+        WORK_ID: 7,
+        PARENT_WORK_ID: 3,
+        WORK_DESCRIPTION: "Müşteriyle Toplantı 1"
     },
     {
-        "WORK_ID": "8",
-        "PARENT_WORK_ID": "3",
-        "WORK_DESCRIPTION": "Toplantı Değerlendirme"
+        WORK_ID: 8,
+        PARENT_WORK_ID: 3,
+        WORK_DESCRIPTION: "Toplantı Değerlendirme"
     },
     {
-        "WORK_ID": "9",
-        "PARENT_WORK_ID": "3",
-        "WORK_DESCRIPTION": "Müşteriyle Toplantı 2"
+        WORK_ID: 9,
+        PARENT_WORK_ID: 3,
+        WORK_DESCRIPTION: "Müşteriyle Toplantı 2"
     },
     {
-        "WORK_ID": "10",
-        "PARENT_WORK_ID": "6",
-        "WORK_DESCRIPTION": "SRM Geliştirmeleri"
+        WORK_ID: 10,
+        PARENT_WORK_ID: 6,
+        WORK_DESCRIPTION: "SRM Geliştirmeleri"
     },
     {
-        "WORK_ID": "11",
-        "PARENT_WORK_ID": "10",
-        "WORK_DESCRIPTION": "Talep Geliştirmeleri"
+        WORK_ID: 11,
+        PARENT_WORK_ID: 10,
+        WORK_DESCRIPTION: "Talep Geliştirmeleri"
     },
     {
-        "WORK_ID": "12",
-        "PARENT_WORK_ID": "11",
-        "WORK_DESCRIPTION": "Ana Hesap Belirleme"
+        WORK_ID: 12,
+        PARENT_WORK_ID: 11,
+        WORK_DESCRIPTION: "Ana Hesap Belirleme"
     },
     {
-        "WORK_ID": "13",
-        "PARENT_WORK_ID": "11",
-        "WORK_DESCRIPTION": "Acil Alım Süreci"
+        WORK_ID: 13,
+        PARENT_WORK_ID: 11,
+        WORK_DESCRIPTION: "Acil Alım Süreci"
     },
     {
-        "WORK_ID": "14",
-        "PARENT_WORK_ID": "11",
-        "WORK_DESCRIPTION": "Talep Aktarımı"
+        WORK_ID: 14,
+        PARENT_WORK_ID: 11,
+        WORK_DESCRIPTION: "Talep Aktarımı"
     },
     {
-        "WORK_ID": "15",
-        "PARENT_WORK_ID": "11",
-        "WORK_DESCRIPTION": "Talepte Katalog"
+        WORK_ID: 15,
+        PARENT_WORK_ID: 11,
+        WORK_DESCRIPTION: "Talepte Katalog"
     },
     {
-        "WORK_ID": "16",
-        "PARENT_WORK_ID": "11",
-        "WORK_DESCRIPTION": "Talep Mailleri"
+        WORK_ID: 16,
+        PARENT_WORK_ID: 11,
+        WORK_DESCRIPTION: "Talep Mailleri"
     },
     {
-        "WORK_ID": "17",
-        "PARENT_WORK_ID": "10",
-        "WORK_DESCRIPTION": "İhale-Teklif Geliştirmeleri"
+        WORK_ID: 17,
+        PARENT_WORK_ID: 10,
+        WORK_DESCRIPTION: "İhale-Teklif Geliştirmeleri"
     },
     {
-        "WORK_ID": "18",
-        "PARENT_WORK_ID": "17",
-        "WORK_DESCRIPTION": "Teklif Karşılaştırma"
+        WORK_ID: 18,
+        PARENT_WORK_ID: 17,
+        WORK_DESCRIPTION: "Teklif Karşılaştırma"
     },
     {
-        "WORK_ID": "19",
-        "PARENT_WORK_ID": "17",
-        "WORK_DESCRIPTION": "Adobe Form"
+        WORK_ID: 19,
+        PARENT_WORK_ID: 17,
+        WORK_DESCRIPTION: "Adobe Form"
     },
     {
-        "WORK_ID": "20",
-        "PARENT_WORK_ID": "17",
-        "WORK_DESCRIPTION": "Malzeme Tekilleştirme"
+        WORK_ID: 20,
+        PARENT_WORK_ID: 17,
+        WORK_DESCRIPTION: "Malzeme Tekilleştirme"
     },
     {
-        "WORK_ID": "21",
-        "PARENT_WORK_ID": "17",
-        "WORK_DESCRIPTION": "Teklif Excel Up/Download"
+        WORK_ID: 21,
+        PARENT_WORK_ID: 17,
+        WORK_DESCRIPTION: "Teklif Excel Up/Download"
     },
     {
-        "WORK_ID": "22",
-        "PARENT_WORK_ID": "10",
-        "WORK_DESCRIPTION": "Sipariş Geliştirmeleri"
+        WORK_ID: 22,
+        PARENT_WORK_ID: 10,
+        WORK_DESCRIPTION: "Sipariş Geliştirmeleri"
     },
     {
-        "WORK_ID": "23",
-        "PARENT_WORK_ID": "22",
-        "WORK_DESCRIPTION": "Otomatik SAS"
+        WORK_ID: 23,
+        PARENT_WORK_ID: 22,
+        WORK_DESCRIPTION: "Otomatik SAS"
     },
     {
-        "WORK_ID": "24",
-        "PARENT_WORK_ID": "22",
-        "WORK_DESCRIPTION": "Sipariş Mailleri"
+        WORK_ID: 24,
+        PARENT_WORK_ID: 22,
+        WORK_DESCRIPTION: "Sipariş Mailleri"
     },
     {
-        "WORK_ID": "25",
-        "PARENT_WORK_ID": "22",
-        "WORK_DESCRIPTION": "Sipariş Portali"
+        WORK_ID: 25,
+        PARENT_WORK_ID: 22,
+        WORK_DESCRIPTION: "Sipariş Portali"
     },
     {
-        "WORK_ID": "26",
-        "PARENT_WORK_ID": "22",
-        "WORK_DESCRIPTION": "ERP ye SAS Aktarımı"
+        WORK_ID: 26,
+        PARENT_WORK_ID: 22,
+        WORK_DESCRIPTION: "ERP ye SAS Aktarımı"
     },
     {
-        "WORK_ID": "27",
-        "PARENT_WORK_ID": "10",
-        "WORK_DESCRIPTION": "ERP yerımı"
+        WORK_ID: 27,
+        PARENT_WORK_ID: 10,
+        WORK_DESCRIPTION: "ERP yerımı"
     }
 ];
 
